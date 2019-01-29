@@ -30,12 +30,12 @@ docker run --name cn-nginx-videojs -d -p 8080:80 nginx-videojs
 Executa um ou mais containers parados.
 
 *Exemplo*:  
-docker start CONTAINER_ID
+docker start *CONTAINER_ID*
 
 ## stop
 
 Para um container em execução.
 
 *Exemplo*:  
-docker stop CONTAINER_ID
+docker stop *CONTAINER_ID*
 
