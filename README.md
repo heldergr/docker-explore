@@ -25,3 +25,10 @@ Executa um comando em um novo container.
 *Exemplo*:  
 docker run --name cn-nginx-videojs -d -p 8080:80 nginx-videojs
 
+## start
+
+Executa um ou mais containers parados.
+
+*Exemplo*:  
+docker start CONTAINER_ID
+
