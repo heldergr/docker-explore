@@ -32,3 +32,10 @@ Executa um ou mais containers parados.
 *Exemplo*:  
 docker start CONTAINER_ID
 
+## stop
+
+Para um container em execução.
+
+*Exemplo*:  
+docker stop CONTAINER_ID
+
