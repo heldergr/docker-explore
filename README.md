@@ -1,5 +1,11 @@
 # Docker commands
 
+## TODO
+* docker image prune
+* docker image ls
+* docker rmi IMAGE-ID
+* docker rm CONTAINER_ID
+
 ## build
 
 Cria uma imagem com base em um Dockerfile.
