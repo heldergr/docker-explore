@@ -1,9 +1,22 @@
-# nginx com arquivos estáticos
+# Comandos Útis
+* Criar imagem a partir de Dockerfile
+```
+docker build -t NOME-IMAGEM .
+```
+* Executar container novo com base em imagem
+```
+docker run --name NOME-CONTAINER -d -p 9090:9090 NOME-IMAGEM
+```
+
+# Arquivos 
+
+## nginx com arquivos estáticos
 ```
 FROM nginx
 COPY static-videos /usr/share/nginx/html
 ```
-# azul/zulu-openjdk-alpine:8 com jar Spring Boot
+
+## azul/zulu-openjdk-alpine:8 com jar Spring Boot
 ```
 FROM azul/zulu-openjdk-alpine:8
 
